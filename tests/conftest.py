@@ -1,5 +1,5 @@
 import pytest
-from framework.driver_utils.browser import Browser
+from selenium_framework.framework.driver_utils.browser import Browser
 
 
 @pytest.fixture()

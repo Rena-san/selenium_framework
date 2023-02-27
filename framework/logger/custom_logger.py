@@ -1,6 +1,6 @@
 import logging
 
-from framework.singleton.singleton import Singleton
+from selenium_framework.framework.singleton.singleton import Singleton
 
 
 class Logger(metaclass=Singleton):

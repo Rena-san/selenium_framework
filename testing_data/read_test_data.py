@@ -2,7 +2,7 @@ import json
 import os
 
 import pytest
-from models.user_model import UserModel
+from selenium_framework.models.user_model import UserModel
 
 DATA_PATH = '/testing_data.json'
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))

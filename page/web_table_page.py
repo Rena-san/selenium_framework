@@ -1,11 +1,11 @@
-from framework.base.base_page import BasePage
-from framework.elements.button import Button
-from framework.elements.input import Input
-from framework.elements.label import Label
-from framework.elements.table import Table
-from framework.logger.custom_logger import Logger
+from selenium_framework.framework.base.base_page import BasePage
+from selenium_framework.framework.elements.button import Button
+from selenium_framework.framework.elements.input import Input
+from selenium_framework.framework.elements.label import Label
+from selenium_framework.framework.elements.table import Table
+from selenium_framework.framework.logger.custom_logger import Logger
 from selenium.webdriver.common.by import By
-from utils.make_list_from_web_list import make_list
+from selenium_framework.utils.make_list_from_web_list import make_list
 
 
 class WebTablePage(BasePage):

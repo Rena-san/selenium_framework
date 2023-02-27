@@ -1,10 +1,10 @@
 import pytest
-from framework.logger.custom_logger import Logger
-from page.alerts_window_page import AlertsWindowPage
-from page.bros_wind_page import BrowserWindowPage
-from page.links_page import LinksPage
-from page.main_page import MainPage
-from page.sample_page import SamplePage
+from selenium_framework.framework.logger.custom_logger import Logger
+from selenium_framework.page.alerts_window_page import AlertsWindowPage
+from selenium_framework.page.bros_wind_page import BrowserWindowPage
+from selenium_framework.page.links_page import LinksPage
+from selenium_framework.page.main_page import MainPage
+from selenium_framework.page.sample_page import SamplePage
 
 
 @pytest.mark.usefixtures("set_up")

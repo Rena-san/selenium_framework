@@ -1,9 +1,9 @@
 import pytest
-from framework.logger.custom_logger import Logger
-from page.elements_page import ElementsPage
-from page.main_page import MainPage
-from page.web_table_page import WebTablePage
-from testing_data.read_test_data import test_text, user1, user2
+from selenium_framework.framework.logger.custom_logger import Logger
+from selenium_framework.page.elements_page import ElementsPage
+from selenium_framework.page.main_page import MainPage
+from selenium_framework.page.web_table_page import WebTablePage
+from selenium_framework.testing_data.read_test_data import test_text, user1, user2
 
 
 @pytest.mark.parametrize("users", [user2(), user1()])

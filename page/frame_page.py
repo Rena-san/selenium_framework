@@ -1,7 +1,7 @@
-from framework.base.base_page import BasePage
-from framework.driver_utils.browser import Browser
-from framework.elements.label import Label
-from framework.logger.custom_logger import Logger
+from selenium_framework.framework.base.base_page import BasePage
+from selenium_framework.framework.driver_utils.browser import Browser
+from selenium_framework.framework.elements.label import Label
+from selenium_framework.framework.logger.custom_logger import Logger
 from selenium.webdriver.common.by import By
 
 

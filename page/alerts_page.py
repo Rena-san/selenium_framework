@@ -1,10 +1,10 @@
-from framework.base.base_page import BasePage
-from framework.driver_utils.browser import Browser
-from framework.elements.button import Button
-from framework.elements.result_text import ResultText
-from framework.logger.custom_logger import Logger
+from selenium_framework.framework.base.base_page import BasePage
+from selenium_framework.framework.driver_utils.browser import Browser
+from selenium_framework.framework.elements.button import Button
+from selenium_framework.framework.elements.result_text import ResultText
+from selenium_framework.framework.logger.custom_logger import Logger
 from selenium.webdriver.common.by import By
-from utils.random_text import generate_random_string
+from selenium_framework.utils.random_text import generate_random_string
 
 
 class AlertsPage(BasePage):

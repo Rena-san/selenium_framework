@@ -1,10 +1,10 @@
 import pytest
-from framework.logger.custom_logger import Logger
-from page.alerts_window_page import AlertsWindowPage
-from page.frame_page import FramePage
-from page.main_page import MainPage
-from page.nested_frame_page import NestedFramePage
-from testing_data.read_test_data import test_text
+from selenium_framework.framework.logger.custom_logger import Logger
+from selenium_framework.page.alerts_window_page import AlertsWindowPage
+from selenium_framework.page.frame_page import FramePage
+from selenium_framework.page.main_page import MainPage
+from selenium_framework.page.nested_frame_page import NestedFramePage
+from selenium_framework.testing_data.read_test_data import test_text
 
 
 @pytest.mark.usefixtures("set_up")

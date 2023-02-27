@@ -1,6 +1,6 @@
-from framework.driver_utils.browser_factory import BrowserFactory
-from framework.singleton.singleton import Singleton
-from tests.read_config import config
+from selenium_framework.framework.driver_utils.browser_factory import BrowserFactory
+from selenium_framework.framework.singleton.singleton import Singleton
+from selenium_framework.tests.read_config import config
 
 
 class Browser(metaclass=Singleton):
