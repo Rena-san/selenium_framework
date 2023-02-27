@@ -1,0 +1,9 @@
+{
+  "URL": "https://demoqa.com/",
+  "browser": "chrome",
+   "mode": "--incognito",
+  "language": "--lang=en",
+  "waiting_time": 30
+
+
+}

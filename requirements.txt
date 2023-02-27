@@ -1,0 +1,7 @@
+selenium==3.141.0
+webdriver-manager==3.8.3
+python==3.9
+pytest==7.1.2
+isort==5.10.1
+
+

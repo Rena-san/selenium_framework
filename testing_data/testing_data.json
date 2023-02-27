@@ -1,0 +1,31 @@
+[
+    {
+    "first_name": "John",
+    "last_name": "Snow",
+    "email": "knownothing@gmail.com",
+    "age": 30,
+    "salary": 3000,
+    "department": "alpha"
+
+},
+    {
+    "first_name": "Buttercup",
+    "last_name": "Cumbersnatch",
+    "email": "BudapestCandygram@mail.ru",
+    "age": 41,
+    "salary": 2000,
+    "department": "beta"
+
+},
+    {   "t1_step3_alert_text": "You clicked a button",
+        "t1_step5_alert_text": "Do you confirm action?",
+        "t1_step6_appear_text": "You selected Ok",
+        "t1_step7_alert_text": "Please enter your name",
+
+        "t2_step3_text_par_fr": "Parent frame",
+        "t2_step3_text_chil_fr": "Child Iframe",
+
+        "t3_step3_name_form": "Registration Form"
+    }
+
+    ]
